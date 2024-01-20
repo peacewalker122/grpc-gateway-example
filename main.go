@@ -7,8 +7,6 @@ import (
 	"net"
 	"net/http"
 
-	_ "grpc-gateway-example/doc/statik"
-
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
