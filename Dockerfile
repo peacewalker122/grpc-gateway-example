@@ -1,7 +1,7 @@
-FROM golang:1.21.2-alpine
+FROM golang:1.21-alpine
 WORKDIR /app
 COPY . .
-RUN go mod download
+RUN go mod tidy
 RUN go build -o main .
 CMD ["/app/main"]
 
