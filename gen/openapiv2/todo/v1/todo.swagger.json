@@ -1,8 +1,13 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "todo/v1/todo.proto",
-    "version": "version not set"
+    "title": "TODO API",
+    "version": "1.0",
+    "contact": {
+      "name": "gRPC-Gateway project",
+      "url": "https://github.com/grpc-ecosystem/grpc-gateway",
+      "email": "none@example.com"
+    }
   },
   "tags": [
     {

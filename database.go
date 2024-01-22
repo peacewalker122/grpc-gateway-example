@@ -33,9 +33,7 @@ func (d *database) FindAll(ctx context.Context) ([]string, error) {
 
 	res := make([]string, len(d.data))
 
-	for i, v := range d.data {
-		res[i] = v
-	}
+	copy(res, d.data)
 
 	return res, nil
 }
